@@ -11,18 +11,19 @@ export default function home() {
     const constraintRef = useRef(null)
 
     return (
-        <main className="h-screen bg-fixed bg-center bg-no-repeat bg-cover "
-            style={{
-                backgroundImage: "url('/assets/images/web-background.png')",
-            }}>
+        <main className="h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-main-bg">
             <Navbar />
             <motion.div
                 className="flex flex-col items-center justify-center mt-4 md:mt-16 md:flex-row"
                 ref={constraintRef}
             >
-                <div className="mb-8 md:hidden">
-                    <img className="rounded-xl" src="https://media.giphy.com/media/JqmupuTVZYaQX5s094/giphy.gif" alt="Coding GIF" width="160"/>
-                </div>
+                <motion.div
+                    initial={{ clipPath: 'inset(100% 0% 0% 0%)' }}
+                    animate={{ clipPath: 'inset(0% 0% 0% 0%)' }}
+                    transition={{ duration: 1.5 }}
+                    className="mb-8 md:hidden">
+                    <img className="rounded-xl" src="https://media.giphy.com/media/JqmupuTVZYaQX5s094/giphy.gif" alt="Coding GIF" width="160" />
+                </motion.div>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -74,16 +75,21 @@ export default function home() {
                             <p className="text-xs font-semibold sm:text-sm md:text-lg">
                                 More About Me
                             </p>
-                            <IoArrowRedo className="text-xl"/>
+                            <IoArrowRedo className="text-xl" />
                         </Link>
                     </div>
                 </motion.div>
-                <div className="hidden pl-9 md:block ">
+                <motion.div
+                    initial={{ clipPath: 'inset(100% 0% 0% 0%)' }}
+                    animate={{ clipPath: 'inset(0% 0% 0% 0%)' }}
+                    transition={{ duration: 2 }}
+                    className="hidden pl-9 md:block "
+                >
                     <img
                         className="mt-16 rounded-xl"
                         src="https://media.giphy.com/media/JqmupuTVZYaQX5s094/giphy.gif" alt="Coding GIF" width="360" height="240" />
-                </div>
+                </motion.div>
             </motion.div>
-        </main>
+        </main >
     )
 }

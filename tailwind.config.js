@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gif1-bg': "url('https://media.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif')",
+        'gif2-bg': "url('https://media.giphy.com/media/oYQ9HRm5Mo7VXeMNVR/giphy.gif')",
+        'main-bg': "url('/assets/images/web-background.png')",
+      },
       fontFamily: {
         'raleway-sec': ['Raleway', 'sans-serif'],
         'fredoka-main': ['Fredoka', 'sans-serif']
@@ -18,6 +23,7 @@ export default {
       },
       colors: {
         'mainColor': '#4A4947',
+        'mainColor2': '#6A6967',
         'secColor': '#31511E',
         'thrdColor': '#A4C639',
         'anyColor': '#F6F6F6',
