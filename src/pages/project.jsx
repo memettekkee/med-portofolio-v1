@@ -28,7 +28,7 @@ export default function project() {
 
     useEffect(() => {
         fetch();
-    })
+    }, []);
 
     if (loading) {
         return (
