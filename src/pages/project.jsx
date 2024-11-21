@@ -45,7 +45,7 @@ export default function project() {
                     initial={{ clipPath: 'inset(0% 0% 100% 0%)' }}
                     animate={{ clipPath: 'inset(0% 0% 0% 0%)' }}
                     transition={{ duration: 1 }}
-                    className="flex justify-center mt-4 md:mt-6"
+                    className="flex justify-center h-36 md:h-64 mt-4 md:mt-6"
                 >
                     <img className="rounded-xl" src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" alt="Coding GIF"/>
                 </motion.div>
