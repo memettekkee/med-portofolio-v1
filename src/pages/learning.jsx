@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
+
 import TextSection from "../components/common/TextSection";
 import Navbar from "../components/Navbar";
 
@@ -6,8 +9,34 @@ import { motion } from "motion/react";
 import { BiShow } from 'react-icons/bi'
 import { GiBookmarklet } from "react-icons/gi";
 import { education } from "../utils/education";
+import Loading from "../components/common/Loading";
 
 export default function learning() {
+
+    const [learningData, setLearningData] = useState([])
+    const [loading, setLoading] = useState(true)
+
+    const fetch = async () => {
+        try {
+            const response = await axios.get(`${import.meta.env.VITE_API_URL}/learning`);
+            setLearningData(response.data.learnings); 
+            setLoading(false); 
+        } catch (error) {
+            console.error("Error fetching data:", error);
+            setLoading(false);
+        }
+    }
+
+    useEffect(() => {
+        fetch();
+    })
+
+    if (loading) {
+        return (
+            <Loading/>
+        ); 
+    }
+
     return (
         <div className="bg-fixed bg-center bg-no-repeat bg-cover pb-6 md:pb-12 bg-main-bg">
             <Navbar />
@@ -22,7 +51,7 @@ export default function learning() {
                     <img className="rounded-xl" src="https://media.giphy.com/media/fhAwk4DnqNgw8/giphy.gif" alt="Coding GIF" />
                 </motion.div>
                 <div className="flex flex-wrap items-center justify-center gap-5">
-                    {education.map((data, index) => (
+                    {learningData.map((data, index) => (
                         <motion.div
                             key={index}
                             whileInView={{ scale: 1 }}

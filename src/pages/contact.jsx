@@ -8,7 +8,7 @@ export default function contact() {
         <div className="h-screen bg-fixed bg-center bg-no-repeat bg-cover pb-2 md:pb-5 bg-main-bg">
             <Navbar />
             <div className="xl:px-64">
-                <TextSection icon="📲" text="Find Me On." classNames="mb-10" />
+                <TextSection icon="👇" text="Reach me on." classNames="mb-10" />
                 <div className="flex flex-row flex-wrap justify-center pt-5 md:gap-10 gap-5 md:pt-10">
                     {contactInfo.map((data, index) => {
                         const Icon = data.icon
