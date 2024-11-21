@@ -29,7 +29,7 @@ export default function learning() {
 
     useEffect(() => {
         fetch();
-    })
+    }, []);
 
     if (loading) {
         return (
