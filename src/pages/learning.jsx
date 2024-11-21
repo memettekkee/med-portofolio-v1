@@ -45,7 +45,7 @@ export default function learning() {
                 <motion.div
                     initial={{ clipPath: 'inset(0% 0% 100% 0%)' }}
                     animate={{ clipPath: 'inset(0% 0% 0% 0%)' }}
-                    transition={{ duration: 1.5 }}
+                    transition={{ duration: 1 }}
                     className="flex justify-center md:mt-6 h-36 md:h-64 mb-6 md:mb-8"
                 >
                     <img className="rounded-xl" src="https://media.giphy.com/media/fhAwk4DnqNgw8/giphy.gif" alt="Coding GIF" />

@@ -62,7 +62,8 @@ export default function home() {
                     <div className="flex gap-4">
                         <a
                             className="flex items-center gap-2 p-2 border-2 cursor-pointer rounded-xl border-mainColor bg-thrdColor shadow-button shadow-mainColor hover:bg-secColor hover:text-anyColor md:p-3"
-                            href="https://drive.google.com/file/d/17O-qRjoMTmkgEUiGVk_IM3VlAOExScpF/view?usp=drive_link">
+                            href="https://drive.google.com/drive/folders/1h2AkPSzr1SXAYMztm-7ttfURuBiuA9n9?usp=sharing"
+                            target={'_blank'}>
                             <FaBook className="text-xl" />
                             <p className="text-xs font-semibold sm:text-sm md:text-lg">
                                 My CV
