@@ -38,10 +38,10 @@ export default function about() {
                     </div>
                     <p className="mt-5 text-base text-justify text-mainColor2 md:mt-0 lg:w-1/2 xl:text-lg font-raleway-sec">
                         I am an undergraduated student majoring in <b>Informatics Engineering</b> at UIN
-                        Sunan Kalijaga Yogyakarta. i’ve a mid understanding of any programming languange
-                        and standart <b>web development</b> also <b>android </b>knowledge based on projects i’ve been build. My
+                        Sunan Kalijaga Yogyakarta. i’ve a strong understanding of any programming languange
+                        related on projects i’ve been build such as <b>Web </b>and <b>Android</b>. My
                         primary objective is on expertise my skill's according to web development <br /> <br />
-                        i have some experience with ReactJS for the frontend. and using <b>ExpressJS</b> along with {' '}
+                        i have some experience with <b>ReactJS </b>for the frontend. and using <b>ExpressJS</b> along with {' '}
                         <b>MongoDB</b> for backend development. im also currently learning more about <b>DevOps</b> thing
                         such Google Cloud
                     </p>

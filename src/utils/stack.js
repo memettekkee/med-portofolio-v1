@@ -12,10 +12,15 @@ import {
     SiMysql,
     SiFramer,
 } from 'react-icons/si'
+import { FaHtml5 } from "react-icons/fa";
 
 import { TbBrandKotlin } from 'react-icons/tb'
 
 export const stack = [
+    {
+        name: 'HTML5',
+        icons: FaHtml5,
+    },
     {
         name: 'JavaScript',
         icons: BiLogoJavascript,

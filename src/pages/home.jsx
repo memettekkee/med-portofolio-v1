@@ -56,7 +56,7 @@ export default function home() {
                         />
                     </h2>
                     <p className="max-w-lg text-sm text-center md:max-w-2xl md:text-left md:text-base font-raleway-sec">
-                        I am a <b>Junior Web Developer</b>, basically have a standart skill’s on Front-End and
+                        I am a <b>Junior Web Developer</b>, basically have a skill’s on Front-End and
                         Back-End Developer. i have some experience on <b>Android</b> and <b>Web</b> projects
                     </p>
                     <div className="flex gap-4">
