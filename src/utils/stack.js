@@ -11,8 +11,9 @@ import {
     SiMongodb,
     SiMysql,
     SiFramer,
+    SiNextdotjs
 } from 'react-icons/si'
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaLaravel } from "react-icons/fa";
 
 import { TbBrandKotlin } from 'react-icons/tb'
 
@@ -30,12 +31,20 @@ export const stack = [
         icons: SiPhp,
     },
     {
+        name: 'Laravel',
+        icons: FaLaravel,
+    },
+    {
         name: 'Kotlin',
         icons: TbBrandKotlin,
     },
     {
         name: 'ReactJS',
         icons: BiLogoReact,
+    },
+    {
+        name: 'NextJS',
+        icons: SiNextdotjs,
     },
     {
         name: 'ExpressJS',
