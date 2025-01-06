@@ -1,5 +1,6 @@
 import {
     BiLogoJavascript,
+    BiLogoTypescript
     BiLogoReact,
     BiLogoNodejs,
     BiLogoGoogleCloud,
@@ -11,7 +12,7 @@ import {
     SiMongodb,
     SiMysql,
     SiFramer,
-    SiNextdotjs
+    SiNextdotjs,
 } from 'react-icons/si'
 import { FaHtml5, FaLaravel } from "react-icons/fa";
 
@@ -19,12 +20,12 @@ import { TbBrandKotlin } from 'react-icons/tb'
 
 export const stack = [
     {
-        name: 'HTML5',
-        icons: FaHtml5,
-    },
-    {
         name: 'JavaScript',
         icons: BiLogoJavascript,
+    },
+    {
+        name: 'TypeScript',
+        icons: BiLogoTypescript,
     },
     {
         name: 'Php',
