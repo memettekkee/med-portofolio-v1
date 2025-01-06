@@ -1,6 +1,6 @@
 import {
     BiLogoJavascript,
-    BiLogoTypescript
+    BiLogoTypescript,
     BiLogoReact,
     BiLogoNodejs,
     BiLogoGoogleCloud,
