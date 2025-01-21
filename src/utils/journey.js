@@ -1,7 +1,16 @@
 import { IoSchool } from "react-icons/io5"
 import { GrGroup } from "react-icons/gr"
+import { IoMdBriefcase } from "react-icons/io";
 
 export const journey = [
+    {
+        icon: IoMdBriefcase,
+        title: 'Front-End Developer',
+        group: 'PT Berbinar Insightful Indonesia',
+        link: 'https://berbinar.in/',
+        desc: 'Developing Berbinar.In user and admin dashboard',
+        date: 'December 2024 - Present'
+    },
     {
         icon: IoSchool,
         title: 'Cloud Computing Cohort',
