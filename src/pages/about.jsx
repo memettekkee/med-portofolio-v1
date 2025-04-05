@@ -41,9 +41,10 @@ export default function about() {
                         Sunan Kalijaga Yogyakarta. i’ve a strong understanding of any programming languange
                         related on projects i’ve been build such as <b>Web </b>and <b>Android</b>. My
                         primary objective is on expertise my skill's according to web development <br /> <br />
-                        i have some experience with <b>ReactJS </b>for the frontend. and using <b>ExpressJS</b> along with {' '}
-                        <b>MongoDB</b> for backend development. im also currently learning more about <b>DevOps</b> thing
-                        such Google Cloud
+                        I have experience working as a fullstack developer using both JavaScript Frameworks
+                        (such as <b>Next.js</b> either <b>Node.js</b> or any stack related to web development) and PHP Frameworks - <b>Laravel</b>. 
+                        I’m flexible and open to using any framework or stack that aligns with the team’s preferences and project needs. 
+                        In addition, I’m currently expanding my skills in the <b>DevOps</b> field, particularly with tools and services from <b>Google Cloud</b>.
                     </p>
                 </div>
                 <TextSection className="mb-10" icon={<GiJourney />} text="My Journey" />

@@ -5,10 +5,18 @@ import { IoMdBriefcase } from "react-icons/io";
 export const journey = [
     {
         icon: IoMdBriefcase,
+        title: 'Full-Stack Programmer',
+        group: 'PT Medika Digital Nusantara',
+        link: 'https://morbis.id/',
+        desc: 'Develop some features that are assigned to the Morhuman web product, (Gitlab)',
+        date: 'February 2025 - Present'
+    },
+    {
+        icon: IoMdBriefcase,
         title: 'Front-End Developer',
         group: 'PT Berbinar Insightful Indonesia',
         link: 'https://berbinar.in/',
-        desc: 'Developing Berbinar.In user and admin dashboard',
+        desc: 'Develop Berbinar.in dashboard it contains 3 roles (dashboard HR, admin tes tools, admin article) and some components of the main main page of Berbinar.in, (Github)',
         date: 'December 2024 - Present'
     },
     {

@@ -1,47 +1,43 @@
 import {
-    BiLogoJavascript,
     BiLogoTypescript,
-    BiLogoReact,
     BiLogoNodejs,
     BiLogoGoogleCloud,
+    BiLogoPostgresql
 } from 'react-icons/bi'
 import {
-    SiPhp,
     SiExpress,
     SiTailwindcss,
     SiMongodb,
     SiMysql,
     SiFramer,
     SiNextdotjs,
+    SiPrisma,
+    SiJquery
 } from 'react-icons/si'
-import { FaHtml5, FaLaravel } from "react-icons/fa";
+import { FaLaravel, FaVuejs, FaPython } from "react-icons/fa";
 
 import { TbBrandKotlin } from 'react-icons/tb'
 
 export const stack = [
     {
-        name: 'JavaScript',
-        icons: BiLogoJavascript,
+        name: 'Python',
+        icons: FaPython,
     },
     {
         name: 'TypeScript',
         icons: BiLogoTypescript,
     },
     {
-        name: 'Php',
-        icons: SiPhp,
+        name: 'Kotlin',
+        icons: TbBrandKotlin,
     },
     {
         name: 'Laravel',
         icons: FaLaravel,
     },
     {
-        name: 'Kotlin',
-        icons: TbBrandKotlin,
-    },
-    {
-        name: 'ReactJS',
-        icons: BiLogoReact,
+        name: 'VueJS',
+        icons: FaVuejs,
     },
     {
         name: 'NextJS',
@@ -54,6 +50,10 @@ export const stack = [
     {
         name: 'NodeJS',
         icons: BiLogoNodejs,
+    },
+    {
+        name: 'jQuery',
+        icons: SiJquery,
     },
     {
         name: 'Tailwind',
@@ -72,7 +72,15 @@ export const stack = [
         icons: SiMysql,
     },
     {
+        name: 'PostgreSQL',
+        icons: BiLogoPostgresql,
+    },
+    {
         name: 'G-Cloud',
         icons: BiLogoGoogleCloud,
+    },
+    {
+        name: 'Prisma',
+        icons: SiPrisma,
     },
 ]
