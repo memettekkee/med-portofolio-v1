@@ -12,9 +12,13 @@ import {
     SiFramer,
     SiNextdotjs,
     SiPrisma,
-    SiJquery
+    SiJquery,
+    SiSocketdotio,
+    SiSupabase,
+    SiRender,
+    SiVercel
 } from 'react-icons/si'
-import { FaLaravel, FaVuejs, FaPython } from "react-icons/fa";
+import { FaLaravel, FaVuejs, FaPython, FaGitAlt } from "react-icons/fa";
 
 import { TbBrandKotlin } from 'react-icons/tb'
 
@@ -80,7 +84,23 @@ export const stack = [
         icons: BiLogoGoogleCloud,
     },
     {
-        name: 'Prisma',
-        icons: SiPrisma,
+        name: 'Git',
+        icons: FaGitAlt,
+    },
+    {
+        name: 'Socket.io',
+        icons: SiSocketdotio,
+    },
+    {
+        name: 'Supabase',
+        icons: SiSupabase,
+    },
+    {
+        name: 'Render',
+        icons: SiRender,
+    },
+    {
+        name: 'Vercel',
+        icons: SiVercel,
     },
 ]
