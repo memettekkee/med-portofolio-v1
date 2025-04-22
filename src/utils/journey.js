@@ -8,7 +8,7 @@ export const journey = [
         title: 'Full-Stack Programmer',
         group: 'PT Medika Digital Nusantara',
         link: 'https://morbis.id/',
-        desc: 'Develop some features that are assigned to the Morhuman web product, (Gitlab)',
+        desc: 'Develop some features that are assigned to the Morbis product such as Morhuman, ElderAid, (Gitlab)',
         date: 'February 2025 - Present'
     },
     {

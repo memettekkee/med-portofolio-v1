@@ -90,17 +90,5 @@ export const stack = [
     {
         name: 'Socket.io',
         icons: SiSocketdotio,
-    },
-    {
-        name: 'Supabase',
-        icons: SiSupabase,
-    },
-    {
-        name: 'Render',
-        icons: SiRender,
-    },
-    {
-        name: 'Vercel',
-        icons: SiVercel,
-    },
+    }
 ]
