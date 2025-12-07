@@ -2,7 +2,8 @@ import {
     BiLogoTypescript,
     BiLogoNodejs,
     BiLogoGoogleCloud,
-    BiLogoPostgresql
+    BiLogoPostgresql,
+    BiPowerOff
 } from 'react-icons/bi'
 import {
     SiExpress,
@@ -11,21 +12,27 @@ import {
     SiMysql,
     SiFramer,
     SiNextdotjs,
-    SiPrisma,
+    SiAdonisjs,
     SiJquery,
     SiSocketdotio,
-    SiSupabase,
-    SiRender,
-    SiVercel
+    SiTableau,
+    SiOracle
 } from 'react-icons/si'
-import { FaLaravel, FaVuejs, FaPython, FaGitAlt } from "react-icons/fa";
+import { FaLaravel, FaVuejs, FaPython, FaGitAlt, FaLinux } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
+import { PiMicrosoftExcelLogo } from "react-icons/pi";
 
 import { TbBrandKotlin } from 'react-icons/tb'
+import { GrOracle } from 'react-icons/gr';
 
 export const stack = [
     {
         name: 'Python',
         icons: FaPython,
+    },
+    {
+        name: 'Golang',
+        icons: FaGolang,
     },
     {
         name: 'TypeScript',
@@ -52,8 +59,8 @@ export const stack = [
         icons: SiExpress,
     },
     {
-        name: 'NodeJS',
-        icons: BiLogoNodejs,
+        name: 'AdonisJS',
+        icons: SiAdonisjs,
     },
     {
         name: 'jQuery',
@@ -64,8 +71,8 @@ export const stack = [
         icons: SiTailwindcss,
     },
     {
-        name: 'F-Motion',
-        icons: SiFramer,
+        name: 'Oracle',
+        icons: SiOracle,
     },
     {
         name: 'MongoDB',
@@ -84,11 +91,29 @@ export const stack = [
         icons: BiLogoGoogleCloud,
     },
     {
+        name: 'Linux',
+        icons: FaLinux,
+    },
+    {
         name: 'Git',
         icons: FaGitAlt,
     },
     {
         name: 'Socket.io',
         icons: SiSocketdotio,
+    },
+    {
+        name: 'Tableau',
+        icons: SiTableau,
+    },
+    {
+        name: 'Power BI',
+        icons: BiPowerOff,
+    },
+    {
+        name: 'Excel',
+        icons: PiMicrosoftExcelLogo,
     }
 ]
+
+{/* <PiMicrosoftExcelLogo /> */}

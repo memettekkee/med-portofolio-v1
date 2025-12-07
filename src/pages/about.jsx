@@ -37,14 +37,12 @@ export default function about() {
                         <img className="object-cover w-full h-full opacity-90" src={Photo} />
                     </div>
                     <p className="mt-5 text-base text-justify text-mainColor2 md:mt-0 lg:w-1/2 xl:text-lg font-raleway-sec">
-                        I am an undergraduated student majoring in <b>Informatics Engineering</b> at UIN
-                        Sunan Kalijaga Yogyakarta. i’ve a strong understanding of any programming languange
-                        related on projects i’ve been build such as <b>Web </b>and <b>Android</b>. My
-                        primary objective is on expertise my skill's according to web development <br /> <br />
-                        I have experience working as a fullstack developer using both JavaScript Frameworks
-                        (such as <b>Next.js</b> either <b>Node.js</b> or any stack related to web development) and PHP Frameworks - <b>Laravel</b>. 
-                        I’m flexible and open to using any framework or stack that aligns with the team’s preferences and project needs. 
-                        In addition, I’m currently expanding my skills in the <b>DevOps</b> field, particularly with tools and services from <b>Google Cloud</b>.
+                        I have practical experience working across the full development cycle, including frontend, backend, API integration, and database management. 
+                        I’m familiar with modern development patterns such as component-based architecture, RESTful services, and scalable backend structures. 
+                        I also work comfortably in environments that involve <b>DevOps practices</b>—such as CI/CD, deployment workflows, and application monitoring—along with experience in <b>cloud-based development</b> for real projects.
+                        <br/><br/>
+                        I adapt my tools and frameworks based on the project’s <b>technical requirements</b> and <b>business logic</b>, 
+                        ensuring that the solutions I build remain maintainable, efficient, and aligned with the team’s objectives.
                     </p>
                 </div>
                 <TextSection className="mb-10" icon={<GiJourney />} text="My Journey" />

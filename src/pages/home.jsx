@@ -35,16 +35,16 @@ export default function home() {
                     className="flex flex-col items-center justify-start gap-3 xl:items-start text-mainColor xl:mt-16 2xl:mt-24"
                 >
                     <h1 className="text-3xl font-bold md:text-6xl">Muhammad (Met)</h1>
-                    <h2 className="text-xl font-bold md:pt-4 md:text-4xl">HelloWorld("print")</h2>
+                    {/* <h2 className="text-xl font-bold md:pt-4 md:text-4xl">Hey there</h2> */}
                     <h2 className="text-xl font-bold md:text-3xl">
                         My role ?{' '}
                         <TypeAnimation
                             sequence={[
-                                'Front-End Developer',
+                                'Software Engineer',
                                 5000,
-                                'Back-End Developer',
+                                'Full-stack Developer',
                                 5000,
-                                'Android Developer',
+                                'Data Analyst',
                                 5000,
                             ]}
                             wrapper="span"
@@ -56,8 +56,8 @@ export default function home() {
                         />
                     </h2>
                     <p className="max-w-lg text-sm text-center md:max-w-2xl md:text-left md:text-base font-raleway-sec">
-                        I am a <b>Junior Web Developer</b>, basically have a skill’s on Front-End and
-                        Back-End Developer. i have some experience on <b>Android</b> and <b>Web</b> projects
+                    <b>Junior Web Developer</b> and <b>Data Analyst</b> with experience in building web applications, system integrations, 
+                    and data-driven solutions. <b>Skilled in front-end, back-end, cloud, and database development</b> across multiple real-world industry projects.
                     </p>
                     <div className="flex gap-4">
                         <a
